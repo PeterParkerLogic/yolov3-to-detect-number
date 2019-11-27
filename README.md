@@ -10,10 +10,15 @@ yolov3 to detect number from 0~9
  
  Second:
    Using get_train_txt.py to write all training data names to an txt file. It let main program, train.py, easily to get all training image.
+   
  Third:
    Using train.py to train the model.
+   
  Forth:
    Using order_img.py to rename testing data name from 1.png to 00001.png. It can let dataloader read test image in right way.
+   
+Fifth:
+   Using detect.py to get the output of the test images in output folder. And it will generate a json file contains all test image bounding box position and label.
  
  
  
